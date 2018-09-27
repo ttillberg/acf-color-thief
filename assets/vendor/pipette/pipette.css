@@ -1,0 +1,61 @@
+.pipette {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.pipette__container {
+  position: absolute;
+  top: 0;
+  display: inline-flex;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.pipette__color {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 0px solid white;
+  transition: width 120ms ease-in 120ms, border-width 120ms ease-in;
+}
+
+.pipette.--hover {
+  z-index: 999;
+}
+
+.pipette__color:first-child {
+  border-radius: 2px 0 0 2px;
+}
+.pipette__color:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+.pipette__color {
+  width: 4px;
+}
+.pipette__color--selected {
+  width: 50px;
+}
+.pipette--no-selection {
+}
+.pipette--no-selection:hover {
+}
+.pipette--no-selection .pipette__color {
+  width: var(--default-width);
+}
+.pipette--no-selection:hover .pipette__color {
+}
+
+.pipette.--hover .pipette__color,
+.pipette.--hover .pipette__color--selected {
+  width: 50px;
+  transition: width 320ms ease 0ms, border-width 120ms ease-in;
+}
+.pipette.--hover .pipette__color:hover {
+  border-width: 2px;
+  border-radius: 3px;
+  transition: width 120ms ease, border-width 60ms ease-in;
+}
