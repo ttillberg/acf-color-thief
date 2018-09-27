@@ -18,7 +18,15 @@ This ACF field type is compatible with:
 
 ### Installation
 
-1.  Copy the `acf-color_thief` folder into your `wp-content/plugins` folder
+
+#### Automatic (Recommended)
+
+To keep your plugin up to date, install the [GitHub updater](https://github.com/afragen/github-updater) plugin and follow the instructions to install this repo. 
+
+#### Manual
+
+
+1.  Copy the `acf-color-thief` folder into your `wp-content/plugins` folder
 2.  Activate the Color Thief plugin via the plugins admin page
 3.  Create a new field via ACF and select the Color Thief type
 4.  Configure the field by specifying the name of the sibling field (must be an image field)
