@@ -8,6 +8,8 @@ Extracts and creates a colour palette from an uploaded image.
 
 Configure the field by specifying the name of an adjacent image field from which the palette should be extracted. The colour palette will update whenever the image changes. If no colour has previously been chosen, the first one from the palette gets selected by default.
 
+<img width="260" src="https://user-images.githubusercontent.com/557990/46143049-1da48800-c259-11e8-958b-94beace4cae3.png">
+
 ### Compatibility
 
 This ACF field type is compatible with:
