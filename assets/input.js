@@ -90,7 +90,7 @@
 
         resolve(palette);
       };
-      image.src = img.src;
+      image.src = img.src + "?&cache_bust=" + Date.now()
     });
   }
 
