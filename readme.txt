@@ -28,4 +28,5 @@ This ACF field type is compatible with:
 == Changelog ==
 
 = 1.0.0 = Copied and adapted code from Christoph Jeworutzki
+= 1.0.1 = Fixed CORS issue for CDN hosted images
 * Initial Release.

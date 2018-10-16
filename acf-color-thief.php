@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: Color Thief
 Plugin URI: –
 Description: Grabs the dominant color or a representative color palette from an image. Uses javascript and canvas.
-Version: 1.0.0
+Version: 1.0.1
 Author: Christoph Jeworutzki, Theo Tillberg
 Author URI: https://intmagic.com/
 License: GPLv2 or later
